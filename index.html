@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <title>Play Sudoku !</title>
+        <link rel = "stylesheet" href = "css/styles.css">
+        <script src = "js/script.js"></script>
+    </head>
+    <header>
+        <h1>
+            Sudoku
+        </h1>
+        <div id = "message">
+            <h2>You Go!</h2>
+        </div>
+        <div id= "setup-game">
+            <div id = "diff">
+                <h2>Difficulty Level </h2>
+                <label><input type="radio" id="diff-1" name="diff" value="easy">Easy</label>
+                <label><input type="radio" id="diff-2" name="diff" value="intermediate" checked>Intermediate</label>
+                <label><input type="radio" id="diff-3" name="diff" value="hard">Hard</label>
+                
+            </div>
+            <div id = "time">
+                <h2>Time </h2>
+                <label><input type="radio" id="time-1" name="time" value="three">3 Minutes</label>
+                <label><input type="radio" id="time-2" name="time" value="five" checked>5 Minutes</label>
+                <label><input type="radio" id="time-3" name="time" value="ten">10 Minutes</label>
+                
+            </div>
+            <div id = "theme">
+                <h2>Background  </h2>
+                <label><input type="radio" id="theme-1" name="theme" value="light" checked>I am a Jedi</label>
+                <label><input type="radio" id="theme-2" name="theme" value="dark" >I am a Sith</label>
+            </div>
+            
+        </div>
+        <button id = "start-btn">Let's Go!</button>
+    </header>
+    <body>
+        <div id = "stats">
+            <p id = "timer">Timer</p>
+        </div>
+       
+        <div id = "game">
+            <div id = "board"></div>
+            <div id = "number-container" class = "hidden">
+                <p id = "one">1</p>
+                <p id = "two">2</p>
+                <p id = "three">3</p>
+                <p id = "four">4</p>
+                <p id = "five">5</p>
+                <p id = "six">6</p>
+                <p id = "seven">7</p>
+                <p id = "eight">8</p>
+                <p id = "nine">9</p>
+                
+            </div>
+
+        </div>
+    </body>
+    <footer>
+        <p>By Abhinav Singh</p>
+    </footer>
+</html>
